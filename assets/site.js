@@ -1,4 +1,4 @@
-// Dil: önce kullanıcının seçimi, yoksa tarayıcı dili (Türkçe değilse İngilizce).
+// Dil: kullanıcının seçimi, yoksa İngilizce.
 // <head> içindeki kısa betik dili sayfa çizilmeden ayarlar; bu dosya düğmeleri ve sekme başlığını yönetir.
 (function () {
   function apply(lang) {
