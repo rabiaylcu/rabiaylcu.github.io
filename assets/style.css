@@ -47,13 +47,13 @@ html[lang="tr"] .lang-toggle [data-set-lang="tr"], html[lang="en"] .lang-toggle 
 main { padding: 28px 0 56px; }
 
 /* Ana sayfa */
-.personal { padding: 20px 0 8px; }
+.personal { padding: 0 0 4px; }
 .personal .eyebrow { color: var(--muted); font-weight: 500; font-size: .95rem; margin-bottom: 2px; }
 .personal h1 { font-size: clamp(1.8rem, 4.2vw, 2.5rem); font-weight: 800; letter-spacing: -0.04em; line-height: 1.1; margin: 0 0 10px; }
 .personal .bio { color: var(--muted); font-size: 1rem; margin: 0 0 18px; }
 .gh { display: inline-flex; align-items: center; gap: 8px; padding: 8px 16px; font-size: .9rem; border-radius: 999px; border: 1px solid var(--border); background: var(--surface); color: var(--text); font-weight: 600; text-decoration: none; transition: border-color .15s, box-shadow .15s; }
 .gh:hover { border-color: var(--primary-light); box-shadow: 0 2px 10px rgba(200, 16, 46, .12); }
-.label { font-size: .72rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 32px 0 14px; }
+.label { font-size: .72rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 20px 0 12px; }
 .projects { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 400px), 1fr)); gap: 20px; }
 .project { display: block; background: var(--surface); border: 1px solid var(--border); border-radius: 20px; overflow: hidden; text-decoration: none; color: inherit; transition: box-shadow .2s, transform .2s, border-color .2s; }
 .project:hover { box-shadow: 0 8px 32px rgba(200, 16, 46, .14); transform: translateY(-3px); border-color: var(--primary-light); }
