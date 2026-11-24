@@ -142,4 +142,13 @@ footer .dot { margin: 0 8px; }
   .header-card { flex-direction: column; padding: 22px; }
   .content-card { padding: 24px; }
 }
+/* Telefonda menü: üstte isim ve TR/EN, altta eşit aralıklı sekmeler; açık sayfanın altında kırmızı çizgi */
+@media (max-width: 640px) {
+  .nav .container { display: grid; grid-template-columns: repeat(3, 1fr); column-gap: 0; row-gap: 0; min-height: 0; padding-top: 12px; }
+  .nav-links { display: contents; }
+  .brand { grid-column: 1 / 3; grid-row: 1; align-self: center; }
+  .lang-toggle { grid-column: 3; grid-row: 1; justify-self: end; align-self: center; }
+  .nav-links a { grid-row: 2; text-align: center; margin-top: 10px; padding: 10px 4px 9px; border-top: 1px solid var(--border); border-bottom: 2px solid transparent; }
+  .nav-links a.active { border-bottom-color: var(--primary); font-weight: 600; }
+}
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
