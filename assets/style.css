@@ -26,6 +26,20 @@
   --cover: linear-gradient(135deg, #E23A55 0%, #6E0A1B 100%);
   --font: "Work Sans", "Segoe UI", system-ui, sans-serif;
 }
+/* Molar sayfaları ve kartı: deniz yeşili tema (uygulamanın renkleri) */
+.theme-molar {
+  --primary: #0F766E;
+  --primary-soft: #D5F5EF;
+  --primary-light: #99E0D4;
+  --bg: #F4F7F7;
+  --surface-soft: #EEF5F4;
+  --border: #DDE8E6;
+  --shadow: 0 10px 30px rgba(15, 80, 75, 0.08);
+  --hero-bg: linear-gradient(135deg, #D5F5EF 0%, #BFE6EC 100%);
+  --cover: linear-gradient(135deg, #14B8A6 0%, #0E4F5C 100%);
+}
+.theme-molar .hero { box-shadow: 0 10px 24px rgba(15, 118, 110, .12); }
+.project.theme-molar:hover { box-shadow: 0 8px 32px rgba(15, 118, 110, .16); }
 html[lang="tr"] [data-lang="en"], html[lang="en"] [data-lang="tr"] { display: none !important; }
 * { box-sizing: border-box; }
 body { margin: 0; background: var(--bg); color: var(--text); font: 400 15px/1.6 var(--font); }
