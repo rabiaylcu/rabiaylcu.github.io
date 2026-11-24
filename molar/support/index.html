@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<script>(function(){var l;try{l=localStorage.getItem('lang')}catch(e){}if(l!=='tr'&&l!=='en')l='en';document.documentElement.lang=l})()</script>
+<script>(function(){var l,q=(location.search.match(/[?&]lang=(tr|en)\b/)||[])[1];try{if(q)localStorage.setItem('lang',q);l=localStorage.getItem('lang')}catch(e){}if(q)l=q;if(l!=='tr'&&l!=='en')l='en';document.documentElement.lang=l})()</script>
 <title>Support | rabiaylcu</title>
 <link rel="icon" href="/assets/molar.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -36,7 +36,7 @@
   <article class="article" data-lang="tr">
     <h2>İletişim</h2>
     <p>E-posta: <a href="mailto:molar26@gmail.com">molar26@gmail.com</a></p>
-    <p>Uygulamanın içinden de yazabilirsin: <strong>Ayarlar → Bize yaz</strong>. Genellikle 3–5 iş günü içinde cevap veririz.</p>
+    <p>Uygulamanın içinden de yazabilirsin: <strong>Ayarlar → Bize ulaş</strong>. Genellikle 3–5 iş günü içinde cevap veririz.</p>
     <h2>Mesajına neler eklemelisin</h2>
     <ul>
       <li>Hangi ekrandaydın ve ne yapmaya çalışıyordun</li>
@@ -60,7 +60,7 @@
   <article class="article" data-lang="en">
     <h2>Contact</h2>
     <p>Email: <a href="mailto:molar26@gmail.com">molar26@gmail.com</a></p>
-    <p>You can also write from inside the app: <strong>Settings → Write to us</strong>. We usually reply within 3–5 business days.</p>
+    <p>You can also write from inside the app: <strong>Settings → Contact us</strong>. We usually reply within 3–5 business days.</p>
     <h2>What to include in your message</h2>
     <ul>
       <li>Which screen you were on and what you were trying to do</li>
